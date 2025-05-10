@@ -1,6 +1,6 @@
 {
   "name": "v8r-plugin-emoji-output",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "a silly package for testing v8r's plugin system",
   "type": "module",
   "exports": "./index.js",
@@ -8,5 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chris48s",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "v8r": ">=5.0.0"
+  }
 }

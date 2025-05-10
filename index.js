@@ -7,7 +7,7 @@ class EmojiOutput extends BasePlugin {
     return ["emoji"];
   }
 
-  getSingleResultLogMessage(result, fileLocation, format) {
+  getSingleResultLogMessage(result, format) {
     if (format === "emoji") {
       if (result.valid === true) {
         return "👍";
